@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Dónde está mi película?</title>
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    <header>
+        <h1>¿Dónde está mi película?</h1>
+    </header>
+    
+    <main>
+        <section id="search-form">
+            <label for="paises">País</label>
+            <select id="paises" name="paises">
+                <!-- Add options here -->
+            </select>
+            
+            <label for="name">Película/show</label>
+            <input type="text" id="name" name="name" placeholder="Escribe el nombre aquí">
+            
+            <button onclick="consultaShow();">Buscar</button>
+        </section>
+        
+        <section id="resultDiv">
+            <!-- Search results will go here -->
+        </section>
+    </main>
+    
+    <footer>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
